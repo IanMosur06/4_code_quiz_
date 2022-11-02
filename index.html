@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./Assets/CSS/reset.css">
-    <link rel="stylesheet" href="./Assets/CSS/styles.css">
-</head>
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./Assets/CSS/styles.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Navigation Bar -->
-<header>
-    <a class="highscore navBar" href="./highscores.html">Highscores</a>
-    <h3 class="navBar">Timer: <span id="time">00</span></h3>
-</header>
+    <header>
+      <a class="highscore navBar" href="./highscores.html">Highscores</a>
+      <h3 class="navBar">Timer: <span id="time">00</span></h3>
+    </header>
     <!-- Menu -->
     <section>
-        <div class="box">
-    <div id="start" class="menu">
-        <h2>Coding Quiz</h2>
-        <p class="pMenu">Click this button to start</p>
-        <button id="menuBtn" class="mBtn">Start</button>
-    </div>
+      <div class="box">
+        <div id="start" class="menu">
+          <h2>Coding Quiz</h2>
+          <p class="pMenu">Click this button to start</p>
+          <button id="menuBtn" class="mBtn">Start</button>
+        </div>
 
-    <!-- Questions -->
-
-    <!-- Finish -->
- </div>       
- 
-</section>
+        <!-- Questions -->
+        <div id="questions" class="hidden">
+          <h1 id="qTitle">questions</h1>
+          <div id="answers" class="pick">
+            <button id="answer1" class="mBtn qBtn">Answer 1</button>
+            <button id="answer2" class="mBtn qBtn">Answer 2</button>
+            <button id="answer3" class="mBtn qBtn">Answer 3</button>
+            <button id="answer4" class="mBtn qBtn">Answer 4</button>
+          </div>
+        </div>
+        <!-- Finish -->
+      </div>
+    </section>
     <script src="./Assets/JS/logic.js"></script>
     <script src="./Assets/JS/questions.js"></script>
-</body>
+  </body>
 </html>
