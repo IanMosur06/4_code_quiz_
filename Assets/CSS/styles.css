@@ -1,0 +1,65 @@
+:root {
+
+}
+
+*, body {
+
+}
+
+body {
+
+}
+
+
+
+/* Navigation Bar */
+
+header (
+   display: flex;
+)
+
+.highscore {
+ position: relative;
+}
+
+.navBar {
+
+}
+
+#time {
+
+}
+
+h2 {
+   text-align: center;
+   padding-bottom: 10px;
+   font-size: xx-large;
+   font-weight: bold;
+}
+}
+
+
+/* Menu */
+
+#start {
+
+}
+
+.menu {
+
+}
+
+#menuBtn {
+
+}
+
+.mBtn [
+
+]
+
+
+
+/* Questions */
+
+
+/* End */
