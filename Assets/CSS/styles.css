@@ -7,55 +7,93 @@
 }
 
 body {
+   box-sizing: border-box;
+}
 
+section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 150px;
+}
+
+.box {
+   box-shadow: 0px 0px 10px rgba(33, 4, 198, 0.8);
+   border:  black;
+   border-radius: 10px;
+   width: 900px;
+   max-width: 80%;
+   padding: 40px;
 }
 
 
 
 /* Navigation Bar */
 
-header (
+header {
    display: flex;
-)
+   justify-content: space-between;
+   padding: 15px;
+   flex-direction: row;
+}
 
 .highscore {
  position: relative;
+ color: blue;
 }
 
 .navBar {
-
+   line-height: 30px;
+   margin: 10px;
+   font-size: larger;
+   font-weight: bold;
 }
 
-#time {
 
+
+h3 {
+   text-align: center;
+   padding-bottom: 20px;
+   font-size: large;
+   font-weight: bold;
+   color: blue;
+}
+
+
+
+/* Menu */
+
+.menu {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 h2 {
    text-align: center;
    padding-bottom: 10px;
    font-size: xx-large;
+   font-weight: bolder;
+}
+
+.pMenu {
+   padding: 10px;
+   text-align: center;
+   font-size: large;
+}
+
+.mBtn {
+   display: flex;
+   padding: 10px;
+   font-size: large;
+   border-radius: 10px;
+   width: 200px;
+   justify-content: center;
    font-weight: bold;
+   color: white;
+   background-color: blue;
 }
-}
-
-
-/* Menu */
-
-#start {
-
-}
-
-.menu {
-
-}
-
-#menuBtn {
-
-}
-
-.mBtn [
-
-]
 
 
 
